@@ -20,4 +20,4 @@ if [ $exit_code -eq 0 ]; then
     exit $exit_code
 else 
     echo "Test failed"
-fi
+#fi
