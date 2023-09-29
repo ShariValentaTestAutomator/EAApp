@@ -1,0 +1,2 @@
+EATestBDD.Features.ProductFeature.CreateProductAndVerifyTheDetails
+EATestBDD.Features.ProductFeature.EditProductAndVerifyIfItsUpdated

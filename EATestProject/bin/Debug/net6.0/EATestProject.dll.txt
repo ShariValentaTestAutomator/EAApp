@@ -1,0 +1,4 @@
+EATestProject.UnitTest1.Test1
+EATestProject.UnitTest1.Test2
+EATestProject.UnitTest1.Test3
+EATestProject.UnitTest1.Test4
