@@ -18,3 +18,15 @@ jobs:
       run: |
         echo -- Running Tests ---
         sh ./scripts/run.sh
+    - name: Publish the report as artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: SpecFlowReport
+        path: .reports/
+
+    - name: Publishing LivingDoc reports to GitHub pages
+    uses: peaceiris/actions-gh-pages@v3
+    with:
+      github_token: ${{ secrets.GITHUB_TOKEN }}
+      publish_dir: ./public
+      

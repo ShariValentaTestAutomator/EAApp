@@ -44,8 +44,14 @@ extent.html
 *Resharper*
 Thumbs.db
 usr_scrts.cs
-*.suo*
-*.testlog*
+*/.suo*
+*/TestStore/0/000.testlog
 .vs/*
-.futdcache.v2*
+*/.futdcache.v2*
+.dtbcache.v2*
+*.vsidx
+*.bin
+*.cache
+
+
 
